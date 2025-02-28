@@ -1,11 +1,23 @@
-System.out.println("Hello, World!")
-int x =5;
-x
-x + 5
-x
-x = x + 10
-x
- System.out.println("Welcome");
-System.out.println("Welcome");
-System.out.print("Angelika");
-System.out.print("Angelika");
+int i = 1;
+while (i <= 10) {
+    System.out.println(i);
+    i ++;
+}
+void printNumbers() {
+    int i = 1;
+    while (i <= 10) {
+        System.out.println(i);
+        i++;
+    }
+}
+printNumbers();
+void printNumbers (int n) {
+    int i = 1;
+    while (i <= n) {
+        System.out.println(i);
+        i++;
+    }
+}
+printNumbers(5);
+printNumbers(10);
+printNumbers(20);
