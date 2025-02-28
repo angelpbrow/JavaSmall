@@ -1,23 +1,14 @@
-int i = 1;
-while (i <= 10) {
-    System.out.println(i);
-    i ++;
-}
-void printNumbers() {
+int sumNumbers( int n){
     int i = 1;
-    while (i <= 10) {
-        System.out.println(i);
-        i++;
-    }
-}
-printNumbers();
-void printNumbers (int n) {
-    int i = 1;
+    int sum = 0;
     while (i <= n) {
-        System.out.println(i);
+        sum = sum + i;
         i++;
     }
+    return sum;
 }
-printNumbers(5);
-printNumbers(10);
-printNumbers(20);
+sumNumbers(5);
+sumNumbers(11);
+sumNumbers(23);
+sumNumbers(5683);
+sumNumbers(106839);
